@@ -12,6 +12,11 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
+  # Rebuild 5 minutes past every hour so posts dated in the future
+  # go live automatically once their date has passed (cron is in UTC).
+  schedule:
+    - cron: "5 * * * *"
+
 permissions:
   contents: read
   pages: write
