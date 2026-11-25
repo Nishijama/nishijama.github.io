@@ -1,6 +1,6 @@
 ---
 title: "What I learned from completing the OTW Bandit game"
-date: 2026-11-26 18:00:00 +0100
+date: 2026-11-25 12:00:00 +0100
 categories: [Write-ups, OverTheWire]
 tags: [web, linux]
 ---
